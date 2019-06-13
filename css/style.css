@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat|Raleway&display=swap");
+
+* {
+  font-family: "Montserrat", "Lato", "Raleway", sans-serif;
+}
+
+.list_picture {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px 0;
+}
+.Video {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.taille {
+  height: 50vh;
+  widows: 60vw;
+}
+
+.footer {
+  height: 20vh;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.fab {
+  height: 50px;
+  width: 50px;
+  color: white;
+  margin: 10px;
+}
+
+.cover {
+  background-image: url("https://loremflickr.com/500/640/paris,girl/all");
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+}
+
+.cover2 {
+  background-image: url("../image5.jpg");
+  background-repeat: no-repeat;
+  height: 60vh;
+  width: 100%;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+
+.img {
+  width: 60vh;
+  margin: 20px;
+}
+
+.titre,
+.title {
+  font-size: 35px;
+  letter-spacing: 3px;
+  color: white;
+}
