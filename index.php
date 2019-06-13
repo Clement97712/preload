@@ -29,7 +29,7 @@
       width: 100%;
       background-color: red;
       z-index: 6;
-      position: relative;
+      position: fixed;
       left: 0;
       top: 0;
       display: flex;
@@ -41,7 +41,6 @@
       animation-name: slide;
       animation-duration: 2s;
       animation-fill-mode: forwards;
-      position: fixed;
     }
 
     @keyframes slide {
@@ -55,6 +54,7 @@
   <body>
     <div class="preload" id="preload">
       <h1>Loading ...</h1>
+      <img src="loading.gif" class="load" />
     </div>
 
     <div class="">
@@ -185,14 +185,14 @@
           Titre
         </h1>
       </div>
-      <img class="img" src="image1.jpg"/>
-      <img class="img" src="image2.jpg"/>
-      <img class="img" src="image4.jpg"/>
+      <img class="img" src="image1.jpg" />
+      <img class="img" src="image2.jpg" />
+      <img class="img" src="image4.jpg" />
       <div class="cover2">
-          <h1 class="title">
-           Lorem ipsum dolor sit amet.
-          </h1>
-        </div>
+        <h1 class="title">
+          Lorem ipsum dolor sit amet.
+        </h1>
+      </div>
 
       <div class="footer">
         <i class="fab fa-apple"></i>

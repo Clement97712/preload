@@ -3,7 +3,9 @@
 * {
   font-family: "Montserrat", "Lato", "Raleway", sans-serif;
 }
-
+.load {
+  width: 10vh;
+}
 .list_picture {
   display: flex;
   justify-content: space-around;
